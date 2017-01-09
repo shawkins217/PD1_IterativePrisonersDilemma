@@ -15,7 +15,7 @@ def move(my_history, their_history, my_score, their_score):
     my_score, their_score are ints.
     
     Make my move.
-    Returns 'c' or 'b'. 
+    Returns 'c' or 'b'.   
     '''
 
     # my_history: a string with one letter (c or b) per round that has been played with this opponent.
