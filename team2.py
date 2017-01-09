@@ -6,16 +6,16 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'RobbieRttn' # Only 10 chars displayed. 
-strategy_name = 'Look at this net!' 
-strategy_description = 'This strategy uses multiple villains in training to try and capture the opponent with a cargo net. Once in captivity, the opponent is powerless.' 
+team_name = 'RobbieRttn' # Only 10 chars displayed.
+strategy_name = 'Look at this net!'
+strategy_description = 'This strategy uses multiple villains in training to try and capture the opponent with a cargo net. Once in captivity, the opponent is powerless.'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
     
     Make my move.
-    Returns 'c' or 'b'.   
+    Returns 'c' or 'b'. 
     '''
 
     # my_history: a string with one letter (c or b) per round that has been played with this opponent.
