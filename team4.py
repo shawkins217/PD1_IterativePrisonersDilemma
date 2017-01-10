@@ -7,8 +7,8 @@
 ####
 
 team_name = 'We are number one' # Only 10 chars displayed.
-strategy_name = 'Our strategy is to always say what the person before us just said'
-strategy_description = 'It evaluates the last persons response and copies it'
+strategy_name = '4gforku'
+strategy_description = 'It bases our move off of the last players move and our last three moves'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
