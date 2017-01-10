@@ -17,7 +17,7 @@ def move(my_history, their_history, my_score, their_score):
     Make my move.
     Returns 'c' or 'b'. 
     '''
-    if my_history = ('c, b')
+    if my_history = ('c, c') or ('b, b'):
     if their_history = rawinput('c, b, ')
         else rawinput not ('c, b')
             print score
